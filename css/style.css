@@ -33,10 +33,56 @@ ul.nav-list li{
 }
 .navBar button{
   margin-left: 20px;
+  font-size: 18px;
+}
+.navBar .blackButton{
+background-color: #000;
+color: #fff;
+padding: 10px;
+border: transparent;
+border-radius: 10px;
+}
+.navBar .grayButton{
+  background-color: #cacaca;
+  padding: 10px;
+  border: transparent;
+  border-radius: 10px;
+}
+.grayButton:hover{
+  background-color: #dadada;
+}
+.blackButton:hover{
+  background-color: #252525;
 }
 ul.nav-list a{
 text-decoration: none;
 color: #8b959e;
+font-size: 18px;
+font-weight: 300;
+}
+ul.nav-list a:hover{
+  color: #000;
+  font-weight: 400;
+}
+.nav_right .nav-list > li{
+  position: relative;
+}
+.draw_list{
+  background-color: #fff;
+  position: absolute;
+  width: max-content;
+  top: calc(100% + 15px);
+  border-radius: 10px;
+  box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.2);
+  left: -15px;
+  padding: 15px;
+  display: none;
+}
+.draw_list li{
+  list-style: none;
+}
+.draw_list li:not(:last-child){
+  margin-bottom: 15px;
 }
 /* hero */
 .hero{
