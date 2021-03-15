@@ -10,7 +10,9 @@ body{
   max-width: 1200px;
   margin: auto;
 }
-
+.position-rel{
+  position: relative;
+}
 /* navbar */
 .navBar{
   display:flex;
@@ -87,6 +89,37 @@ ul.nav-list a:hover{
 .draw_list li:not(:last-child){
   margin-bottom: 20px;
 }
+.draw_list.features{
+  display: flex;
+  left: -200px;
+}
+.draw_list strong{
+  color: #25ebff;
+  font-size: 11px;
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  width: max-content;
+}
+.draw_list.features span{
+  font-size: 15px;
+  color: #8b959e;
+}
+.draw_list.features i{
+  font-size: 15px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #8b959e;
+  text-align: center;
+  padding-top: 7px;
+}
+.features > li:not(:last-child){
+  margin-right: 20px;
+}
+
 /* hero */
 .hero{
   display: flex;
