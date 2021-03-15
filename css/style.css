@@ -67,11 +67,14 @@ ul.nav-list a:hover{
 .nav_right .nav-list > li{
   position: relative;
 }
+.nav-list > li{
+  padding: 20px 0;
+}
 .draw_list{
   background-color: #fff;
   position: absolute;
   width: max-content;
-  top: calc(100% + 15px);
+  top: 99%;
   border-radius: 10px;
   box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.2);
   left: -15px;
@@ -82,7 +85,7 @@ ul.nav-list a:hover{
   list-style: none;
 }
 .draw_list li:not(:last-child){
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 /* hero */
 .hero{
